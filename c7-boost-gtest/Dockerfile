@@ -13,5 +13,9 @@ RUN wget https://googletest.googlecode.com/files/gtest-1.7.0.zip
 RUN unzip gtest-1.7.0.zip
 RUN rm gtest-1.7.0.zip
 RUN cd gtest-1.7.0 && ./configure && make && cp -R include/ /usr/local/ && cp ./lib/.libs/* /usr/local/lib/
+RUN rpm -iUvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+RUN yum -y update
+RUN yum -y install python-pip
+RUN pip install cpp-coveralls
 CMD /bin/bash
 
