@@ -5,4 +5,4 @@ EXPOSE 8080
 
 RUN npm install http-server -g
 
-CMD http-server
+CMD cd /usr/src/ && http-server
