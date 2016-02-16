@@ -21,6 +21,10 @@ docker run  -ti --entrypoint /bin/bash    your-name/c7-systemd
 
 docker run   -ti --entrypoint=/bin/bash  -v /Users/oscarraig/git-public/Calculate_Regression/:/home/  oscarraig/c7-boost-gtest
 
-##Eneter a running docker container
+##Enter a running docker container
 
 docker exec -it [container-id] bash
+
+## Copying a file from docker to host
+
+docker cp CONTAINER_ID:/etc/nginx/conf.d/default.conf .
