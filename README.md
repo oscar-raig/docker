@@ -12,16 +12,16 @@ For building from Dockerfile
 3. 
 docker build --rm -t your-name/c7-systemd .
 
-##For running an interactive shell:
+## For running an interactive shell:
 
 docker run  -ti --entrypoint /bin/bash    your-name/c7-systemd
 
 
-##For running an interactive shell with volume:
+## For running an interactive shell with volume:
 
 docker run   -ti --entrypoint=/bin/bash  -v /Users/oscarraig/git-public/Calculate_Regression/:/home/  oscarraig/c7-boost-gtest
 
-##Enter a running docker container
+## Enter a running docker container
 
 docker exec -it [container-id] bash
 
