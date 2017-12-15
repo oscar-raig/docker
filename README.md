@@ -9,8 +9,7 @@ For building from Dockerfile
 1. Download Dockerfile
 
 2. Build docker 
-3. 
-docker build --rm -t your-name/c7-systemd .
+3. docker build --rm -t your-name/c7-systemd .
 
 ## For running an interactive shell:
 
