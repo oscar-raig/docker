@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web-server:
+    image: "oscarraig/nodejs-http-server"
+    ports:
+     - "8080:8080"
