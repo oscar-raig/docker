@@ -10,5 +10,7 @@ docker stop CONTAINER_ID
 
 docker run -p 8080:8080 oscarraig/nodejs-http-server
 
+## Running with docker-compose
 
+docker-compse up
 
