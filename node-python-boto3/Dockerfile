@@ -1,4 +1,4 @@
-FROM node
+FROM node:6.9.4
 MAINTAINER Oscar Raig <oscar.raig@gmail.com>
 
 
