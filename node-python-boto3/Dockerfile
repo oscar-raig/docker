@@ -7,3 +7,4 @@ RUN \
   apt-get install -y python python-dev python-pip  && \
   rm -rf /var/lib/apt/lists/*
 RUN npm install webpack -g
+RUN npm install babel-loader -g
