@@ -1,4 +1,4 @@
-FROM node:6.9.4
+FROM node:12.16.0-alpine
 MAINTAINER Oscar Raig <oscar.raig@gmail.com>
 
 
